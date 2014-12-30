@@ -1,4 +1,4 @@
 YouNote
 =======
 
-MMAI final project
+We want to make the world a better place.
