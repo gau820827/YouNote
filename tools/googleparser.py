@@ -28,7 +28,7 @@ for time in xrange(0, int(data)):
 		else:
 			filename = str(number_of_picture) + "p.png"
 		try:
-			req = urllib2.urlopen(target).read()
+			req = urllib2.urlopen(target,timeout=10).read()
 			picture = open(filename, "wb")
 			picture.write(req)
 			picture.close()
