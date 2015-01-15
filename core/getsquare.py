@@ -1,13 +1,13 @@
-def getSquare(point):
+def getSquare(point, k):
 	square = []
-	for i in xrange(0,7):
-		if i < 3:
+	for i in xrange(0,2*k+1):
+		if i < k:
 			for j in xrange(0,3):
-				square.append([point[0]-3+i, point[1]-3+i+(3-i)*j])
-		elif i == 3:
-			for j in xrange(0,7):
-				square.append([point[0]-3+i, point[1]-3+j])
-		elif i > 3:
+				square.append([point[0]-(k)+i, point[1]-(k)+i+((k)-i)*j])
+		elif i == k:
+			for j in xrange(0,2*k+1):
+				square.append([point[0]-(k)+i, point[1]-(k)+j])
+		elif i > k:
 			for j in xrange(0,3):
-				square.append([point[0]-3+i, point[1]+3-i+(i-3)*j])
+				square.append([point[0]-(k)+i, point[1]+(k)-i+(i-(k))*j])
 	return square
