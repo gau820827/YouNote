@@ -1,15 +1,13 @@
 YouNote
 =======
 
-We want to make the world a better place.
+YouNote is a program to find text region within an iamge
 Official Website: http://gau820827.github.io/
 
 The main program is in /core
 
-Run run.sh to automatically do
+Run run.sh to automatically test with test3.jpg
 
-1. produce Feature.train
+See usage in run.sh
 
-2. train with libsvm 
-
-3. test with single image test.jpg
+The good_model is trained using data.dat with specific SVM parameter
