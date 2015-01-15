@@ -1,9 +1,11 @@
 YouNote
 =======
 
-YouNote is a program to find text region within an iamge
+####YouNote is a program to find text region within an iamge
 
-Our Official Website: http://gau820827.github.io/
+#####Our Official Website: http://gau820827.github.io/
+
+#####Take a look at the survey report: http://www.csie.ntu.edu.tw/~b00902088/MMAIFinal/YouNote.html
 
 The main program is in /core
 
