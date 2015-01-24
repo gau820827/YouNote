@@ -7,6 +7,10 @@ YouNote
 
 #####Take a look at the survey report: http://www.csie.ntu.edu.tw/~b00902088/MMAIFinal/YouNote.html
 
+- [x] Good
+- [x] Easy
+- [x] Elegant
+
 The main program is in /core
 
 1. Run run.sh to automatically test with test3.jpg
